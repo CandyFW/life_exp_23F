@@ -13,7 +13,7 @@ library(tidyverse)
 
 Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 
-# Analysis
+# Life Expectancy Analysis
 
 ```{r}
 library(tidyverse)
@@ -25,3 +25,10 @@ gapminder::gapminder_unfiltered  |>
   arrange(year) ->
   sumdat
 ```
+
+```{r}
+library(ggplot2)
+```
+
+
+This is a change to main
